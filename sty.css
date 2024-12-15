@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 247, 247);
+    /* mech thbte*/
+    height: 100vh;
+}
+/*btn dans le centre*/
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+#color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px ;
+    background-color: #cccccc;
+    border: 2px solid #999999;
+    border-radius: 30px;
+}
+#change-color-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px;
+    border-radius: 5px;  
+    /*hajm akbre*/
+    font-size: 16px;
+}
+#change-color-btn:hover {
+    background-color: red;
+}
